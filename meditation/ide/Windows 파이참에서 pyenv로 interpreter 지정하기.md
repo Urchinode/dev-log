@@ -7,6 +7,8 @@ tags:
 aliases: 
 draft: false
 ---
+참고자료: [pyenv로 파이썬 가상환경 만들기](https://seongkyu-lim.github.io/Blog/docs/project/dano-lunch/pyenv/)
+
 시스템 파이썬 버전을 유연하게 바꾸기 위해 `pyenv-window`를 사용중이다.
 근데, Pycharm에서 인터프리터를 어떻게 설정해야하지?
 
