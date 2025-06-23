@@ -13,9 +13,11 @@ VSCode에는 Tailwind용 Extension으로 `Tailwind CSS IntelliSense` 가 있다.
 
 # settings.json 설정
 
-1. `설정(Ctrl + ,)` 에 들어가 검색창에 tailwind를 입력한다.
-2. `Tailwind CSS › Experimental: Config File`의 `Edit in settings.json` 클릭
-3. .css 파일 경로를 입력한다.
+명령 팔레트로 setting.json를 만들자.
+
+1. `Ctrl + Shift + P` 입력
+2. `Preferences: Open User Settings (JSON)` 검색
+3. 아래 key에 Tailwind를 import한 **.css 파일 경로**를 입력한다.
 ```json title="" {} // showLineNumbers{number}
 "tailwindCSS.experimental.configFile": "src/styles.css"
 ```
